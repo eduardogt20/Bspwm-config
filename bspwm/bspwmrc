@@ -4,7 +4,7 @@
 xsetroot -cursor_name left_ptr
 
 # key bindings
-sxhkd &
+sxhkd -c "$HOME/.config/bspwm/sxhkdrc" &
 
 # panel
 tint2 &
@@ -30,8 +30,7 @@ bspc rule -a Pcmanfm desktop='^2'
 bspc rule -a firefox desktop='^3' 
 bspc rule -a Geany desktop='^4'
 bspc rule -a Thonny desktop='^4'
-bspc rule -a lite-XL desktop= '^4'
-bspc rule -a telegram desktop= '^5'
+bspc rule -a TelegramDesktop desktop= '^5'
 bspc rule -a obsidian desktop= '^6'
 bspc rule -a Simplenote desktop= '^6'
 bspc rule -a Deadbeef desktop= '^7'

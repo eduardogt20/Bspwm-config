@@ -4,7 +4,7 @@ super + w
 
 # terminal emulator
 super + Return
-    urxvt
+    termite
 
 # file manager
 super + f
@@ -33,6 +33,9 @@ super + g
 
 super + t
 	thonny
+
+super + c
+	nvim-qt
 
 # program launcher
 super + @space

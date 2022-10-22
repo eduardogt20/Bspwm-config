@@ -19,10 +19,13 @@ super + m
     
 # notas 
 super + o
-    obsidian
+	obsidian
 
 super + n
     simplenote
+
+super + p
+    notion-app-enhanced
 
 super + e
     telegram-desktop 
@@ -31,19 +34,19 @@ super + e
 super + g
 	geany
 
-super + t
-	thonny
+super + k
+	kate
 
 super + c
 	nvim-qt
 
 # program launcher
 super + @space
-    rofi_run -r
+    rofi_run -w
 
 # program launcher
 alt + F1
-    rofi_run -r
+    rofi_run -d
 
 # make sxhkd reload its configuration files:
 super + shift + r

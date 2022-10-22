@@ -1,0 +1,10 @@
+configuration {
+display-drun:"Aplicaciones" ;
+display-window:"Ventanas" ;
+drun-display-format: "{icon} {name}";
+modes: "window,drun,run,";
+show-icons: true;
+icon-theme:"Papirus";
+}
+
+@theme "/usr/share/rofi/themes/android_notification.rasi"
